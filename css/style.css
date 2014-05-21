@@ -14,7 +14,7 @@ body {
 }
 */
 /*wrapps body below links*/
-#wrapper {
+.wrapper {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
@@ -44,7 +44,7 @@ img {
 Heading
 /*******************************************************************/
 .main-header {
-    float: right;
+  /*  float: right;*/
     margin: 0 0 30px 0; /*Margin here keeps the header seperated from other content on the bottom but removes margins on top.*/
     padding: 0 0 0 0; /*the syntax goes top, right, bottom, left. Padding seperates the text without actually removing the margin on the top of the page.*/
     width: 100%; /*makes the header streach across the entire page.*/
@@ -410,7 +410,7 @@ body {
 
     color: #000000;
     background-image: url("images/Vertical_stripes.jpg");
-    height: 15%;
+   /* height: 15%;*/
 }
 
 /*White header*/

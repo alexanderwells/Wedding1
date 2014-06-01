@@ -5,21 +5,13 @@ body {
     font-family: 'Calligraffitti', sans-serif;
 }
 
-/*html {
-    background: url(images/valentine-day-wedding-rings-backgrounds-powerpoint.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
-/*wrapps body below links*/
 .wrapper {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
     padding: 0 5%;
     background-image: url("images/m-ohwTxIAey_FB8McGe7vWg.jpg");
+    border: 5px #808080 ridge;
 }
 
 #meeting p {
@@ -55,7 +47,7 @@ Heading
     background: #000000;
     padding: 30px;
     background-image: url("images/grey_brick.jpg");
-    border: 2px #ffffff dotted;
+    border: 5px #ffffff ridge;
 }
 
 #logo {
@@ -64,26 +56,38 @@ Heading
 }
 
 .main-header {
-     background-image: url("images/smooth-690x461.jpeg");
+     background-image: url("images/concrete.jpg");
 }
 
 h1 {
     font-family: 'Calligraffitti', sans-serif;
+    color: #400000;
     margin: 20px 0;
     font-size: 2.5em; /*use em (which is = to 16px because it is a relative measurement and better suited to the cascading style of css*/
-) font-weight : bold; /*this unbolds the h1 because headlines and usually bolded and this returnes to normal.*/
+    font-weight: bold; /*this unbolds the h1 because headlines and usually bolded and this returnes to normal.*/
     line-height: 0.8em; /*determines the amount of space between each line of text*/
+    border: 3px #000 ridge;
+    border-radius: 20%;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding-top: 13px;
+    padding-bottom: 5px;
 }
 
 h2 {
     font-size: 2em;
     margin: -5px 0 0; /*the negative margin sets the top, 2d value sets left and right, and the 3rd sets the bottom.  THe negative valus will pulle the element towards the others.*/
     font-weight: normal;
+    border: 3px #000 ridge;
+    border-radius: 20%;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding-top: 13px;
+    padding-bottom: 5px;
 }
 
 h3 {
     font-size: 1.75em;
-    
     font-weight: bold;
     color: #000;
     text-align: center;
@@ -117,8 +121,6 @@ nav ul {
 nav li {
     display: inline-block;
 }
-
-/*creates the navigation tags sit in a line.*/
 
 nav a {
     font-weight: 800;
@@ -216,6 +218,7 @@ Page Event
     max-width: 400px;
     width: 70%;
     margin: auto auto;
+    margin-bottom: 50px;
     border-radius: 25%;
     border: 5px solid #e8e8e8;
 }
@@ -302,7 +305,17 @@ Page: Register
 /********************************************************************
 Page: Photos
 /*******************************************************************/
-
+#wowslider-container2 {
+   zoom: 1; 
+    position: relative; 
+    max-width:1024px;
+    margin:0px auto 0px;
+    z-index:90;
+    margin-right: 100px;
+    border:3px solid #FFFFFF;
+    text-align:left; /* reset align=center */
+    font-size: 10px;
+}
 
 #gallery {
     list-style: none;
@@ -407,20 +420,19 @@ body {
    /* height: 15%;*/
 }
 
-/*White header*/
-.main-header {
+/*.main-header {
     background: #e0e0e0;
     border-color: #000000;
-}
+}*/
 
 nav {
     background: #a8a8a8;
     background-image: url("images/concrete.jpg");
 }
 
-/*logo header 1 and 2*/
 h1, h2 {
-    color: #888888;
+    color: #400000;
+    background-image: url("images/concrete.jpg");
 }
 
 a {

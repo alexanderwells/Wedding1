@@ -120,6 +120,8 @@ nav ul {
 
 nav li {
     display: inline-block;
+    border: 5px #fff solid;
+    padding-top: 3px;
 }
 
 nav a {

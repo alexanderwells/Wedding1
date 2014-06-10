@@ -14,6 +14,10 @@ body {
     border: 5px #808080 ridge;
 }
 
+.social-icon {
+    border: 5px #000 solid;
+}
+
 #meeting p {
     text-align: center;
     max-width: 100%;
@@ -25,8 +29,6 @@ a {
     text-decoration: none;
     color: #000000;
 }
-
-/*all anchor text black*/
 
 img {
     max-width: 100%;
@@ -61,24 +63,27 @@ Heading
 
 h1 {
     font-family: 'Calligraffitti', sans-serif;
-    color: #400000;
+    color: #c0c0c0;
+    background-color: #383838;
     margin: 20px 0;
     font-size: 2.5em; /*use em (which is = to 16px because it is a relative measurement and better suited to the cascading style of css*/
     font-weight: bold; /*this unbolds the h1 because headlines and usually bolded and this returnes to normal.*/
     line-height: 0.8em; /*determines the amount of space between each line of text*/
-    border: 3px #000 ridge;
+    border: 5px #fff ridge;
     border-radius: 20%;
     margin-left: 38%;
     margin-right: 38%;
-    padding-top: 13px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 5px;
+    float: left;
 }
 
 h2 {
     font-size: 2em;
-    margin: -5px 0 0; /*the negative margin sets the top, 2d value sets left and right, and the 3rd sets the bottom.  THe negative valus will pulle the element towards the others.*/
     font-weight: normal;
-    border: 3px #000 ridge;
+ /*   border: 5px #000 ridge;*/
     border-radius: 20%;
     margin-left: 38%;
     margin-right: 38%;
@@ -91,6 +96,8 @@ h3 {
     font-weight: bold;
     color: #000;
     text-align: center;
+    border-bottom: 4px #000 solid;
+    padding-bottom: 12px;
 }
 
 h4 {
@@ -99,6 +106,13 @@ h4 {
     font-weight: normal;
     color: #000;
     text-align: center;
+    border: 5px #000 solid;
+    border-radius: 20%;
+    background-color: #707070;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /********************************************************************
@@ -109,7 +123,12 @@ nav {
     padding: 10px 0;
     margin: auto 0 0;
     border-radius: 25%;
-    border: 4px dotted;
+    border: #000 6px ridge;
+}
+
+nav p {
+    margin-top: 20px;
+    color: #e8e8e8;
 }
 
 nav ul {
@@ -120,8 +139,15 @@ nav ul {
 
 nav li {
     display: inline-block;
-    border: 5px #fff solid;
-    padding-top: 3px;
+    border: 5px #282828 solid;
+    border-radius: 10%;
+    background-color: #707070;
+    padding-top: 5px;
+}
+
+nav p {
+    color: #202020;
+    font-size: 25px;
 }
 
 nav a {
@@ -180,7 +206,7 @@ Page: Home
 
 .homeimage {
     display: block;
-    max-width: 400px;
+    max-width: 500px;
     width: 70%;
     margin: 0 auto 10px;
     border-radius: 25%;
@@ -217,7 +243,7 @@ Page Event
 /*****************************************************************/
 .eventpageimage {
     display: block;
-    max-width: 400px;
+    max-width: 600px;
     width: 70%;
     margin: auto auto;
     margin-bottom: 50px;
@@ -237,10 +263,28 @@ Page Event
 .hotels {
     list-style: none;
     padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     font-size: 100px;
     display: inline-block;
     margin: auto auto;
+    margin-top: 10px;
+    border: 4px #000 solid;
+    border-radius: 20%;
+    background-image: url("images/il_570xN.533015632_f47v.jpg");
+}
+
+.hotel1 {
+    border: 5px #505050 ridge;
+}
+
+.hotel2 {
+    border: 5px #505050 ridge;
+}
+
+.hotel3 {
+    border: 5px #505050 ridge;
 }
 
 .lodging {
@@ -249,11 +293,15 @@ Page Event
     float: none;
     margin: 50px 50px;
     padding: 50px 50px;
-    background-image: url("images/linen2.jpg");
+    background-image: url("images/frabric_stripes.jpeg");
     color: #585858;
     font-size: 2em;
     font-style: bold;
     border: 5px solid #e8e8e8;
+}
+
+.lodging p {
+    text-decoration: underline;
 }
 
 #eventimagetitle {
@@ -274,7 +322,7 @@ Page: Register
     margin: 50px 50px;
     text-align: center;
     position: center;
-    border: 3px ridge #e8e8e8;
+    border: 20px ridge #e8e8e8;
     background: #686868;
     background-image: url("images/il_570xN.533015632_f47v.jpg");
 
@@ -282,8 +330,8 @@ Page: Register
 
 .registerimage {
    display: block;
-    max-width: 400px;
-    width: 70%;
+    max-width: 600px;
+    width: 80%;
     margin: auto auto;
     border-radius: 25%;
     border: 5px solid #e8e8e8;
@@ -359,27 +407,6 @@ img {
     border: 5px solid #e8e8e8;
 }
 
-/*#imagetext2 {
-	position: center;
-	font-weight: bold;
-	text-align: center;
-}
-#imagetext3 {
-	position: center;
-	font-weight: bold;
-	text-align: center;
-}
-#imagetext4 {
-	position: center;
-	font-weight: bold;
-	text-align: center;
-}
-#imagetext5 {
-	position: center;
-	font-weight: bold;
-	text-align: center;
-}*/
-
 #gallery {
     margin: 0;
     padding: 0;
@@ -403,8 +430,8 @@ Page: RSVP
 
 .rsvpimage {
     display: block;
-    max-width: 600px;
-    width: 40%;
+    max-width: 500px;
+    width: 60%;
     margin: auto auto;
     border-radius: 25%;
     border: 5px solid #e8e8e8;
@@ -432,7 +459,7 @@ nav {
     background-image: url("images/concrete.jpg");
 }
 
-h1, h2 {
+h2 {
     color: #400000;
     background-image: url("images/concrete.jpg");
 }
@@ -449,7 +476,7 @@ nav a, nav a:visited {
 /*selected nav link to make it so links wont change colors when clicked*/
 
 nav a.selected, nav a:hover {
-    color: #505050;
+    color: #000;
 }
 
 
